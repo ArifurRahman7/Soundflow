@@ -1,20 +1,20 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage.tsx";
-import AuthCallBackPage from "./pages/auth-callback/AuthCallbackPage.tsx";
+import AuthCallBackPage from "./pages/auth-callback/AuthCallBackPage.tsx";
 import { AuthenticateWithRedirectCallback } from "@clerk/clerk-react";
 import MainLayout from "./layout/MainLayout.tsx";
-import ChatPage from './pages/chat/ChatPage';
-import AlbumPage from "./pages/album/AlbumPage";
-import AdminPage from "./pages/Admin/AdminPage";
-import CreatePodcast from "./components/podcast/CreatePodcast";
-import AllPodCast from "./components/podcast/AllPodCast";
+import ChatPage from './pages/chat/ChatPage.tsx';
+import AlbumPage from "./pages/album/AlbumPage.tsx";
+import AdminPage from "./pages/Admin/AdminPage.tsx";
+import CreatePodcast from "./components/podcast/CreatePodcast.tsx";
+import AllPodCast from "./components/podcast/AllPodCast.tsx";
 
 import { Toaster } from "react-hot-toast";
-import NotFoundPage from "./pages/404/NotFoundPage";
-import AllTTS from "./components/textToSpeech/AllTTS";
-import CreateTTS from "./components/textToSpeech/CreateTTS";
-import Lyricify from "./components/LyricsChat"
-import VoiceRecorder from "./components/VoiceRecorder";
+import NotFoundPage from "./pages/404/NotFoundPage.tsx";
+import AllTTS from "./components/textToSpeech/AllTTS.tsx";
+import CreateTTS from "./components/textToSpeech/CreateTTS.tsx";
+import Lyricify from "./components/LyricsChat.tsx"
+import VoiceRecorder from "./components/VoiceRecorder.tsx";
 
 function App() {
 	return (

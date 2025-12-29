@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button.tsx";
 import { ScrollArea } from "@/components/ui/scroll-area.tsx";
-import { useMusicStore } from "@/types/useMusicStore.ts";
-import { usePlayerStore } from "@/types/usePlayerStore.tsx";
-import { formatDuration } from "@/utils/formatDuration.ts";
+import { useMusicStore } from "@/stores/useMusicStore.ts";
+import { usePlayerStore } from "@/stores/usePlayerStore.tsx";
 import { Clock, Pause, Play } from "lucide-react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
