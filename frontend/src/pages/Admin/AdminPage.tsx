@@ -1,5 +1,5 @@
-import { useAuthStore } from "@/stores/useAuthStore";
-import Header from "./components/Header";
+import { useAuthStore } from "@/stores/useAuthStore.ts";
+import Header from "./components/Header.tsx";
 import { Album, Music } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SongsTabContent from "./components/SongsTabContent";

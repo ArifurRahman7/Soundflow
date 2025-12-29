@@ -5,7 +5,7 @@ import SignInOAuthButtons from "./SignInOAuthButtons";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "./ui/button";
 //import { use } from "react";
-import { useAuthStore } from "@/store/useAuthStore";
+import { useAuthStore } from "@/stores/useAuthStore";
 
 const Topbar = () => {
 	const {isAdmin} = useAuthStore();

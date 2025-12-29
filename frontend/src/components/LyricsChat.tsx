@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import ChatMessage from "./ChatMessage";
+import ChatMessage from "./ChatMessage.tsx";
 import { useUser } from "@clerk/clerk-react";
 
 export default function Lyricify() {
