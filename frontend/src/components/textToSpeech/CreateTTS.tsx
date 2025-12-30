@@ -4,7 +4,7 @@ import { useTTSStore } from "@/stores/useTTSStore";
 import toast from "react-hot-toast";
 import { useUser } from "@clerk/clerk-react";
 import {CreateScriptModal} from "./CreateScriptModal";
-import {API_BASE_URL} from "@public/BaseURL.ts";
+import {API_BASE_URL} from "@public/BaseURL";
 import useGeneratedScript from "./useGeneratedScript.ts" 
 
 const GROQ_VOICE = [

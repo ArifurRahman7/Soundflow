@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
-import {API_BASE_URL} from "@public/BaseURL.ts";
+import { API_BASE_URL } from "../../public/BaseURL";
+
 
 const useGeneratedScript = () => {
     const [givenAiPrompt, setGivenAiPrompt] = useState<string>("The Universe");
