@@ -1,5 +1,5 @@
 import { axiosInstance } from '@/lib/axios';
-import { Album, Song, Stats } from "@/types";
+import type { Album, Song, Stats } from "@/types";
 //import { f } from 'node_modules/@clerk/clerk-react/dist/useAuth-D-mOWUVF.d.mts';
 import toast from 'react-hot-toast';
 import {create} from 'zustand';

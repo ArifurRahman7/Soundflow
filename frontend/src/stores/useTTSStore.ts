@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { TTS } from "@/types";
+import type { TTS } from "@/types";
 
 interface TTSStore {
   ttsList: TTS[];

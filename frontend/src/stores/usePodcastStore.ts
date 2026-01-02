@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Podcast } from "@/types";
+import type { Podcast } from "@/types";
 
 interface PodcastStore {
   podcastList: Podcast[];

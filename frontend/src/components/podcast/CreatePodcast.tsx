@@ -3,7 +3,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useUser } from "@clerk/clerk-react";
 import {CreateScriptModal} from "./CreatePodcastScriptModal.tsx";
-import {API_BASE_URL} from "@public/BaseURL.ts";
+import {API_BASE_URL} from "@/config/BaseURL";
 import useGeneratedScript from "./useGeneratedPodCastScript.tsx"; 
 import { usePodcastStore } from "@/stores/usePodcastStore.ts";
 
