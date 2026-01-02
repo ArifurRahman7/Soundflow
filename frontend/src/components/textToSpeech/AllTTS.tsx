@@ -1,8 +1,8 @@
 import { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import { usePlayerStore } from "@/stores/usePlayerStore";
-import { Song } from "@/types";
-import { API_BASE_URL } from "@public/BaseURL.ts";
+import type { Song } from "@/types";
+import { API_BASE_URL } from "@/config/BaseURL";
 
 const AllTTS = () => {
   const [hovered, setHovered] = useState<number | null>(null);

@@ -4,7 +4,7 @@ import { useTTSStore } from "@/stores/useTTSStore";
 import toast from "react-hot-toast";
 import { useUser } from "@clerk/clerk-react";
 import {CreateScriptModal} from "./CreateScriptModal";
-import {API_BASE_URL} from "@public/BaseURL";
+import {API_BASE_URL} from "@/config/BaseURL";
 import useGeneratedScript from "./useGeneratedScript.ts" 
 
 const GROQ_VOICE = [
@@ -90,7 +90,7 @@ const CreateTTS = () => {
   const [generatingThumbnail, setGeneratingThumbnail] = useState(false);
   const [isCreating, setIsCreating] = useState(false);
   const [isUploadingImage, setIsUploadingImage] = useState(false);
-  let [aiAudioUrl, setAiAudioUrl] = useState<string | null>(null);
+  const [aiAudioUrl, setAiAudioUrl] = useState<string | null>(null);
   const [aiThumbnailUrl, setAiThumbnailUrl] = useState<string | null>(null);
   const [sampleAudioUrl, setSampleAudioUrl] = useState<string | null>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
