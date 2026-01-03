@@ -16,11 +16,9 @@ const lyricSchema = new mongoose.Schema(
       trim: true,
     },
   },
-  {
-    timestamps: { createdAt: true, updatedAt: false },
-  }
+  { timestamps: true }
 );
 
 const Lyric = mongoose.model("Lyric", lyricSchema);
-
 export default Lyric;
+

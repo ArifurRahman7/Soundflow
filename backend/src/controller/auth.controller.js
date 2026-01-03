@@ -19,7 +19,8 @@ export const authCallback = async (req,res,next) => {
             // message:"user created successfully",
         })
     }catch(err){
-        console.log("error in auth route",err);
+        console.log("eeerer")
+        //console.log("error in auth route",err);
         // res.status(500).json({
         //     success:false,
         //     message:"internal server error",err

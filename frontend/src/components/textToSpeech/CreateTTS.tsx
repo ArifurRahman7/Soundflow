@@ -276,7 +276,7 @@ const CreateTTS = () => {
     const fetchSample = async () => {
       try {
         const res = await axios.post(`${API_BASE_URL}/api/tts/generate`, {
-          text: "Hello, I was built by ahanaf. Select me if you like my voice",
+          text: "Hello, I was built by arif. Select me if you like my voice",
           model: 'playai-tts',
           voice: aiVoice,
           description: "Sample audio preview",
@@ -420,7 +420,7 @@ const CreateTTS = () => {
                 const res = await axios.post(`${API_BASE_URL}/api/tts/generate`, {
                   model: 'playai-tts',
                   voice: aiVoice,
-                  text: "Hello I was added by ahanaf. Select me if you like my voice",
+                  text: "Hello I was added by arif. Select me if you like my voice",
                   response_format: "wav"
                   //description: "Sample audio preview",
                 });
