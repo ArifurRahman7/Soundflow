@@ -9,6 +9,7 @@ import AuthProvider from './providers/AuthProvider.tsx'
 // Import your Publishable Key CLERK
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
+// console.log("Publishable Key:", PUBLISHABLE_KEY);
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
@@ -23,5 +24,5 @@ createRoot(document.getElementById('root')!).render(
         </BrowserRouter>
       </AuthProvider>
     </ClerkProvider>
-  </StrictMode>,
+  </StrictMode>
 )
